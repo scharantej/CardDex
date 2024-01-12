@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+</head>
+<body>
+<h1>Dashboard</h1>
+<p>Welcome, {{ user.username }}!</p>
+<ul>
+<li>Cards: {{ cards|length }}</li>
+<li>Decks: {{ decks|length }}</li>
+<li>Trades: {{ trades|length }}</li>
+</ul>
+<a href="/trade">Trade Cards</a>
+<a href="/deckbuilder">Deck Builder</a>
+<a href="/game">Game</a>
+</body>
+</html>
+
+
